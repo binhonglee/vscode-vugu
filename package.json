@@ -1,0 +1,30 @@
+{
+    "name": "vscode-vugu",
+    "displayName": "vscode-vugu",
+    "description": "Syntax highlighting for vugu",
+    "version": "0.0.1",
+    "publisher": "binhonglee",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/binhonglee/vscode-vugu.git"
+    },
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "vugu",
+            "aliases": ["Vugu", "vugu"],
+            "extensions": [".vugu"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "vugu",
+            "scopeName": "source.vugu",
+            "path": "./syntaxes/vugu.tmLanguage.json"
+        }]
+    }
+}
