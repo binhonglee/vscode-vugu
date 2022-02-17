@@ -25,6 +25,12 @@
             "language": "vugu",
             "scopeName": "source.vugu",
             "path": "./syntaxes/vugu.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "vugu",
+                "path": "./snippets.json"
+            }
+        ]
     }
 }

@@ -1,0 +1,13 @@
+{
+	"Vugu component": {
+		"scope": "vugu",
+		"prefix": "vugu",
+		"body": [
+			"<div></div>",
+			"",
+			"<script type=\"application/x-go\">",
+			"type $0 struct {}",
+			"</script>"
+		]
+	}
+}
