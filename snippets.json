@@ -9,5 +9,14 @@
 			"type $0 struct {}",
 			"</script>"
 		]
+	},
+	"Vugu script tag": {
+		"scope": "vugu",
+		"prefix": "script",
+		"body": [
+			"<script type=\"application/x-go\">",
+			"type $0 struct{}",
+			"</script>"
+		]
 	}
 }
